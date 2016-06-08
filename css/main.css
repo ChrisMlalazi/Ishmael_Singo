@@ -31,7 +31,7 @@ body {
 
 .topDiv {
   background-color: #e0ffff;
-  height: 60px;
+  height: 70px;
   margin-top: 0;
 
 }
@@ -76,7 +76,6 @@ transform: scale(1.1);
   width: 50%;
   background-color: rgba(0, 0, 0, 0.1);
   padding: 15px;
-  display: block;
   text-align: center;
   opacity: 0;
   -webkit-transition: ease-in 0.5s all;
@@ -112,7 +111,7 @@ a{
 }
 span {
 	position: relative;
-	top: 40px;
+	top: 29px;
 	color: grey;
 
 }
@@ -122,7 +121,6 @@ span {
   color: green;
   display: block;
   text-align: center;
-  margin-left: -25px;
   font-size: 17px;
   border-bottom: 2px solid transparent;
   -webkit-transition: linear 0.5s all;
@@ -207,6 +205,12 @@ span {
   transform: rotate(315deg);
 }
 
+.footer {
+  color: grey;
+  font-weight: bold;
+  background-color: white;
+}
+
 
 @media (max-width: 400px)  {
 
@@ -222,3 +226,53 @@ span {
 
 
 }
+
+@media (min-width: 765px) {
+
+.toggle-menu li {
+
+  display: inline-block;
+
+}
+
+.toggle-menu li a {
+   margin-right: -60px;
+}
+
+
+.toggle {  
+  padding: 1px;
+ 
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

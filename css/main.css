@@ -6,13 +6,16 @@ BODY
   box-sizing: border-box;
 }
 
-
+html {
+  background-color: #e6e6fa;
+}
 
 body {
   /*background-color: grey;*/
     margin: 0 auto;
    padding: 0;
    font-family: "Open Sans", sans-serif; 
+   max-width: 1400px;
 
 }
 
@@ -42,19 +45,19 @@ h1 {
 }
 
 img {
+  transition: transform .5s;
   box-shadow: 0 0 8px rgba(0, 0, 0, 2);
 }
 
-img {
-    transition: transform .5s;
-}
+
 
 img:hover {
 transform: scale(1.1);
 }
 
 .container {  
-    background-image: url("../images/img2.jpg");
+    background-image:linear-gradient(#ffcc5e, transparent 10%),
+                     url("../images/img2.jpg");
     background-repeat:  no-repeat;   
     height: calc(100vh - 53px);
     /*background-position: center;*/
@@ -202,4 +205,20 @@ span {
   -webkit-transform: rotate(315deg);
   -ms-transform: rotate(315deg);
   transform: rotate(315deg);
+}
+
+
+@media (max-width: 400px)  {
+
+  .picture {
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+  float: right;
+  margin: 20px;
+ 
+  
+}
+
+
 }

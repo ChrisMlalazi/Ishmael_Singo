@@ -227,7 +227,7 @@ span {
 
 }
 
-/*@media (max-width: 736px)  {
+@media (max-width: 736px)  {
 
   .picture {
   height: 120px;
@@ -240,7 +240,7 @@ span {
 }
 
 
-}*/
+}
 
 @media (min-width: 765px) {
 

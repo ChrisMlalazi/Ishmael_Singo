@@ -211,22 +211,19 @@ span {
   background-color: white;
 }
 
+/****************
+MEDIA QUERIES
+*****************/
 
 @media (max-width: 735px)  {
-
   .picture {
   height: 88px;
   width: 88px;
   border-radius: 100%;
   float: right;
-  margin: 20px;
- 
-  
+  margin: 20px; 
+ }
 }
-
-
-}
-
 
 
 @media (min-width: 765px) {

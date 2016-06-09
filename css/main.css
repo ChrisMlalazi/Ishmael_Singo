@@ -212,7 +212,22 @@ span {
 }
 
 
-@media (max-width: 400px)  {
+@media (max-width: 735px)  {
+
+  .picture {
+  height: 88px;
+  width: 88px;
+  border-radius: 100%;
+  float: right;
+  margin: 20px;
+ 
+  
+}
+
+
+}
+
+/*@media (max-width: 736px)  {
 
   .picture {
   height: 120px;
@@ -225,7 +240,7 @@ span {
 }
 
 
-}
+}*/
 
 @media (min-width: 765px) {
 

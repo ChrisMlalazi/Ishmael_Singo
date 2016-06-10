@@ -330,7 +330,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   float: left;
   overflow: hidden;
   height: 100%;
-  border: 2px solid #FFF;
+  border: 2px solid green;
   border-radius: 4px;
   margin-bottom: 5px;
 }
@@ -600,6 +600,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .lg-outer .lg-pager-thumb-cont img {
   width: 100%;
   height: 100%;
+  margin: 2px solid red;
 }
 .lg-outer .lg-pager {
   background-color: rgba(255, 255, 255, 0.5);
@@ -687,7 +688,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   cursor: -o-grab;
   cursor: -ms-grab;
   cursor: grab;
+ 
 }
+
 .lg-outer.lg-grabbing img.lg-object {
   cursor: move;
   cursor: -webkit-grabbing;
@@ -695,6 +698,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   cursor: -o-grabbing;
   cursor: -ms-grabbing;
   cursor: grabbing;
+
 }
 .lg-outer .lg {
   height: 100%;
@@ -759,6 +763,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   max-height: 100%;
   width: auto !important;
   height: auto !important;
+
 }
 .lg-outer.lg-show-after-load .lg-item .lg-object, .lg-outer.lg-show-after-load .lg-item .lg-video-play {
   opacity: 0;

@@ -44,7 +44,7 @@ h1 {
   color: green;
 }
 
-img {
+.container img {
   transition: transform .5s;
   box-shadow: 0 0 8px rgba(0, 0, 0, 2);
 }
@@ -211,67 +211,149 @@ span {
   background-color: white;
 }
 
-/****************
-MEDIA QUERIES
-*****************/
 
-@media (max-width: 735px)  {
-  .picture {
-  height: 88px;
-  width: 88px;
-  border-radius: 100%;
-  float: right;
-  margin: 20px; 
- }
+/***Light Gallery***/
+
+
+h3 {
+  color: green;
+  text-align: center;
+  position: relative;
+  bottom: 50px;
 }
 
-
-@media (min-width: 765px) {
-
-.toggle-menu li {
-
-  display: inline-block;
+img:hover {
+transform:skewY(1.5deg);
 
 }
 
-.toggle-menu li a {
-   margin-right: -60px;
+#lightgallery  {
+ /* list-style: none;*/
+  max-width: 980px;
+  text-align: center;
+  margin-top: -80px;
+}
+
+#lightgallery a {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   /* margin-left: 6%;*/
+    width: 90%;
+   
+    background-color: transparent;
+     border-radius: 10px;
+    
+}
+
+#lightgallery img {
+   width: 85%;
+   height: 200px;
 }
 
 
-.toggle {  
-  padding: 1px;
- 
+
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+} 
+
+
+
+@media screen and (min-width: 500px) {
+
+
+
+#lightgallery a {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   /* margin-left: 6%;*/
+    width: 40%;
+    height: 40%;
+    background-color: transparent;
+     border-radius: 10px;
+    
 }
+
+
 }
 
 
+@media screen and (min-width: 765px) {
+
+.lightbox  {
+  list-style: none;
+  max-width: 980px;
+  padding: 10px;
+  margin: 10px auto;
+
+  
+}
+
+#lightgallery a {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   /* margin-left: 6%;*/
+    width: 30%;
+    height: 30%;
+    background-color: transparent;
+     border-radius: 10px;
+    
+}
+
+#lightgallery img {
+   width: 85%;
+   height: 200px;
+}
+
+
+}
+
+/******Media Queries*******/
+
+/*
+@media screen and (min-width: 601px) {
+
+
+
+  .quotation {
+    font-size: .7em;
+    float: right;
+    width: 200px;
+    margin-right: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    clear: both;
+   
+  }
 
 
 
 
+.lightgallery a {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+    width: 40%;
+    height: 50%;
+    background-color: transparent;
+     border-radius: 10px;
+    
+}
+
+.lightgallery img {
+   width: 85%;
+   height: 200px;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}*/

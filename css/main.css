@@ -19,6 +19,11 @@ body {
 
 }
 
+.wait {
+  margin-top: 150px;
+  color: #ff00ff;
+}
+
 .picture {
   height: 170px;
   width: 170px;

@@ -216,8 +216,45 @@ span {
   background-color: white;
 }
 
+/**************** 
+About Page 
+******************/
+#field {
+  display: flex;
+  height: 600px;
+  flex-direction: column;
+}
 
-/***Light Gallery***/
+.red {
+    background-image:url("../images/profile1.jpg");                  
+    background-repeat:  no-repeat;       
+    background-position: center;  
+    background-size: cover;
+    margin: 0 auto;
+    border-bottom: 3px solid green;
+    border-top: 3px solid green;
+    width:100%;
+    flex-grow: 2;
+}
+
+.green {
+
+  width: 100%;
+}
+
+.red, .green {
+  padding: 15px;
+}
+
+.white {
+  text-align: center;
+  margin-top: -150px;
+  margin-bottom: 50px;
+}
+
+/******************
+Light Gallery
+*******************/
 
 
 h3 {
@@ -316,6 +353,28 @@ transform:skewY(1.5deg);
 #lightgallery img {
    width: 85%;
    height: 200px;
+}
+
+#field {
+  display: flex;
+  height: calc(100vh - 300px);
+  flex-direction: row;
+}
+
+.red {
+ background-color: red;
+ width:100%;
+ border-top-left-radius: 2em;
+ border-bottom-right-radius: 20em;
+ margin: 20px; 
+
+
+}
+
+.green {
+  
+  width: 100%;
+ 
 }
 
 

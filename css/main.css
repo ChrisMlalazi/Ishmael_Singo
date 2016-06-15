@@ -64,7 +64,7 @@ transform: scale(1.1);
     background-image:linear-gradient(#ffcc5e, transparent 10%),
                      url("../images/img2.jpg");
     background-repeat:  no-repeat;   
-    height: calc(100vh - 53px);
+    height: calc(100vh - 110px);
     /*background-position: center;*/
     width: 100%;
     background-size: cover;
@@ -350,6 +350,14 @@ transform:skewY(1.5deg);
 
 @media screen and (min-width: 765px) {
 
+  .container {  
+     
+   
+    background-position: center;
+  
+                
+}
+
 .lightbox  {
   list-style: none;
   max-width: 980px;
@@ -400,44 +408,3 @@ transform:skewY(1.5deg);
 
 }
 
-/******Media Queries*******/
-
-/*
-@media screen and (min-width: 601px) {
-
-
-
-  .quotation {
-    font-size: .7em;
-    float: right;
-    width: 200px;
-    margin-right: 20px;
-    text-align: center;
-    position: relative;
-    bottom: 40px;
-    clear: both;
-   
-  }
-
-
-
-
-.lightgallery a {
-    display: inline-block;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  
-    width: 40%;
-    height: 50%;
-    background-color: transparent;
-     border-radius: 10px;
-    
-}
-
-.lightgallery img {
-   width: 85%;
-   height: 200px;
-}
-
-
-}*/

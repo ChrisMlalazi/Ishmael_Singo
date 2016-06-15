@@ -9,7 +9,11 @@ $('.navicon').on('click', function (e) {
 $('.navicon').on('click', function (e) {
   e.preventDefault();
   //Sentence disappears
-  $('.sentence').hide();  
+  $('.sentence').toggle();  
+  $('.white').toggle(); 
+
 });
+
+
 
 

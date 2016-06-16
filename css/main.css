@@ -29,9 +29,21 @@ body {
   width: 170px;
   border-radius: 100%;
   float: right;
-  margin: 20px;
- 
-  
+  margin: 20px;  
+}
+
+.bio1{
+  float: left;
+}
+
+.bio2{
+  float: left;
+}
+
+.welcome {
+  float: left;
+  width: 100%;
+  margin-top: 100px;
 }
 
 .topDiv {
@@ -68,12 +80,14 @@ transform: scale(1.1);
     /*background-position: center;*/
     width: 100%;
     background-size: cover;
-    margin: 0 auto;
-    border-bottom: 3px solid green;
-    border-top: 3px solid green;
+    float: left;
+  
                 
 }
 
+.container img {
+  float: left;
+}
 
 .toggle {
   display: block;
@@ -210,6 +224,10 @@ span {
   transform: rotate(315deg);
 }
 
+.profile_image1{
+  float: left;
+}
+
 .footer {
   color: grey;
   font-weight: bold;
@@ -226,10 +244,11 @@ About Page
 
 #field {
   display: flex;
-  height: 600px;
   flex-direction: column;
   margin: 10px;
 }
+
+
 
 .white {
   text-align: center;
@@ -237,23 +256,25 @@ About Page
   margin-bottom: 50px;
 }
 
-.red {
-    background-image:url("../images/Profile1.jpg");                  
+.profile_image2 {
+    background-image:url("../images/Profile4.jpg");                  
     background-repeat:  no-repeat;       
     background-position: center;  
     background-size: cover;
     margin: 0 auto;
-    border: 3px solid white;
-    width:100%;
-    flex-grow: 2;
+    border: 10px solid #e0ffff;
+    width: 100%;
+    height: 300px;
     border-radius: 10%;
 }
 
 .bio {
   margin-top: 10px;
-  border: 2px solid white;
+ /* border: 2px solid #e0ffff;*/
   padding: 10px;
   border-radius: 10%;
+  font-size: .9em;
+  line-height: 1.4;
 
 }
 
@@ -263,9 +284,6 @@ About Page
  
 }
 
-.red, .green {
-  padding: 15px;
-}
 
 .contact .icon{
   color: green;
@@ -326,7 +344,9 @@ transform:skewY(1.5deg);
      height: 0;
 } 
 
-
+/***********
+Media Queries
+************/
 
 @media screen and (min-width: 500px) {
 
@@ -336,7 +356,6 @@ transform:skewY(1.5deg);
     display: inline-block;
     margin-top: 20px;
     margin-bottom: 20px;
-   /* margin-left: 6%;*/
     width: 40%;
     height: 40%;
     background-color: transparent;
@@ -348,14 +367,37 @@ transform:skewY(1.5deg);
 }
 
 
-@media screen and (min-width: 765px) {
+@media screen and (min-width: 667px) {
 
-  .container {  
+.menu1 {
+
+  margin-top: 80px;
+}
+
+.container {  
      
-   
-    background-position: center;
-  
-                
+    float: right;
+    width: 70%;
+    background-position: center;                
+}
+
+#left {
+
+  float: left;
+  width: 30%;
+}
+
+.bio1{
+ margin-top: -150px;
+}
+
+.bio2{
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  float: left;
+  margin-top: -100px;
+
 }
 
 .lightbox  {
@@ -371,7 +413,6 @@ transform:skewY(1.5deg);
     display: inline-block;
     margin-top: 20px;
     margin-bottom: 20px;
-   /* margin-left: 6%;*/
     width: 30%;
     height: 30%;
     background-color: transparent;
@@ -384,25 +425,26 @@ transform:skewY(1.5deg);
    height: 200px;
 }
 
+/****  About  ****/
+
 #field {
-  display: flex;
-  height: calc(100vh - 300px);
   flex-direction: row;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
-.red {
- width:100%;
- border-top-left-radius: 2em;
- border-bottom-right-radius: 20em;
+.profile_image2 {
+
+ height: 380px;
  margin: 20px; 
+ border-bottom-right-radius: 100%;
+
 
 
 }
 
-.green {
-  
-  width: 100%;
- 
+.bio {  
+  margin-top: 10px;
 }
 
 

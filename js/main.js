@@ -10,7 +10,8 @@ $('.navicon').on('click', function (e) {
   e.preventDefault();
   //Sentence disappears
   $('.sentence').toggle();  
-  $('.white').toggle(); 
+  $('.white').toggle();
+  $('.picture').toggle();  
 
 });
 

@@ -11,7 +11,9 @@ $('.navicon').on('click', function (e) {
   //Sentence disappears
   $('.sentence').toggle();  
   $('.white').toggle();
-  $('.picture').toggle();  
+  $('.picture').toggle(); 
+  $('.motto1').toggle();
+  
 
 });
 

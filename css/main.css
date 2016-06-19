@@ -6,42 +6,59 @@ BODY
   box-sizing: border-box;
 }
 
-html {
-  background-color: #e6e6fa;
-}
-
 body {
-  /*background-color: grey;*/
-    margin: 0 auto;
+   margin: 0 auto;
    padding: 0;
    font-family: "Open Sans", sans-serif; 
    max-width: 1400px;
+   background-color: #e6e6fa;
+   font-size: .95em;
 
 }
 
-.wait {
-  margin-top: 150px;
-  color: #ff00ff;
+.topDiv {
+    background-color: #e0ffff;
+    height: 70px;
+    margin-top: 0;
+    border-bottom: 1px solid green;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    color: green;
+}
+
+
+.motto1 {
+     color: orange;
+     margin-top: -50px;
+     margin-bottom: 35px;
+    
+     font-size: 1.2em;
+     margin-left: 10px;
 }
 
 .profile_image1{
-  text-align: center;
-  height: 190px;
-  width: 190px;
-  border-radius: 50%; 
-  margin-top: -120px;  
-   border: 2px solid #ffffff;
-  transition: transform .5s;
-   box-shadow: 0 0 8px rgba(0, 0, 0, 1.9);
+    text-align: center;
+    height: 190px;
+    width: 190px;
+    border-radius: 50%; 
+    margin-bottom: -65px;  
+    border: 2px solid #ffffff;
+    transition: transform .5s;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 1.9);
 }
 
 .profile_image1:hover {
-  transform: scale(1.4, 1.4);
+    transform: scale(1.4, 1.4);
 }
 
 .bio1{
-  text-align: center;
-  margin-top: -200px;
+    text-align: center;
+    margin-top: -200px;
 }
 
 .bio2{
@@ -58,29 +75,12 @@ body {
   margin-top: 100px;
 }
 
-.topDiv {
-  background-color: #e0ffff;
-  height: 70px;
-  margin-top: 0;
 
-}
-
-h1 {
-  text-align: center;
-  margin-top: 0;
-  padding-top: 10px;
-  margin-bottom: 20px;
-  color: green;
-}
 
 .container img {
-  transition: transform .5s;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 2);
+    transition: transform .5s;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 2);
 }
-
-
-
-
 
 .container {  
     background-image:linear-gradient(#ffcc5e, transparent 10%),
@@ -153,29 +153,29 @@ span {
 }
 
 .toggle-menu li a {
-  text-decoration: none;
-  color: green;
-  display: block;
-  text-align: center;
-  font-size: 17px;
-  border-bottom: 2px solid transparent;
-  -webkit-transition: linear 0.5s all;
-  transition: linear 0.5s all;
-  font-weight: 600;
-  padding: 0;
+    text-decoration: none;
+    color: green;
+    display: block;
+    text-align: center;
+    font-size: 17px;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: linear 0.5s all;
+    transition: linear 0.5s all;
+    font-weight: 600;
+    padding: 0;
 }
 
 .toggle-menu li a span { text-transform: lowercase; }
 
 .toggle-menu li a:hover {
-  color: purple;
-  border-left: 2px solid green;
-  -webkit-transition: linear 0.5s all;
-  transition: linear 0.5s all;
-  -webkit-transform: scale(1.15);
-  -ms-transform: scale(1.15);
-  transform: scale(1.15);
-  font-weight: 700;
+    color: purple;
+    border-left: 2px solid green;
+    -webkit-transition: linear 0.5s all;
+    transition: linear 0.5s all;
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    font-weight: 700;
 }
 
 /*** Toggle Button ***/
@@ -251,6 +251,7 @@ span {
   clear: both;
   font-size: .7em;
   padding: 5px;
+  border-top: 1px solid green;
 }
 
 /**************** 
@@ -276,9 +277,9 @@ About Page
 }
 
 .profile_image2 {
-    background-image:url("../images/Profile4.jpg");                  
+    background-image:url("../images/Profile5.jpg");                  
     background-repeat:  no-repeat;       
-    background-position: center;  
+   /* background-position: center; */ 
     background-size: cover;
     margin: 0 auto;
     border: 10px solid #e0ffff;
@@ -386,46 +387,50 @@ Media Queries
 }
 
 
-@media screen and (min-width: 736px) {
+@media screen and (min-width: 737px) {
+
+.motto1 {
+    margin-top: -100px; 
+}
+
+.profile_image1{ 
+   margin-bottom: -65px;  
+}
 
 .menu1 {
 
-  margin-top: 5px;
+    margin-top: 5px;
 }
 
-.container {  
-     
+.container {    
     float: right;
     width: 70%;
     background-position: center;                
 }
 
 #left {
-
-  float: left;
-  width: 30%;
+    float: left;
+    width: 30%;
 }
 
 .bio1{
- margin-top: 10px;
+    margin-top: 10px;
 }
 
 .bio2{
-  text-align: center;
-  padding: 10px;
-  width: 100%;
-  float: left;
-  margin-top: -50px;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    float: left;
+    margin-top: -50px;
 
 }
 
 .lightbox  {
-  list-style: none;
-  max-width: 980px;
-  padding: 10px;
-  margin: 10px auto;
-
-  
+    list-style: none;
+    max-width: 980px;
+    padding: 10px;
+    margin: 10px auto;  
 }
 
 #lightgallery a {
@@ -435,8 +440,7 @@ Media Queries
     width: 30%;
     height: 30%;
     background-color: transparent;
-     border-radius: 10px;
-    
+    border-radius: 10px;    
 }
 
 #lightgallery img {
@@ -447,31 +451,19 @@ Media Queries
 /****  About  ****/
 
 #field {
-  flex-direction: row;
-  max-width: 1100px;
-  margin: 0 auto;
+    flex-direction: row;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
-/*.profile_image1{
-  height: 100px;
-  width: 100px;
-  border-radius: 50%; 
-  margin-top: -510px;  
-}*/
 
 .profile_image2 {
-
- height: 380px;
- margin: 20px; 
- border-bottom-right-radius: 100%;
-
+   height: 380px;
+   margin: 20px; 
+   border-bottom-right-radius: 100%;
 }
 
 .bio {  
-  margin-top: 10px;
+   margin-top: 10px;
 }
-
-
-
 }
-

@@ -12,7 +12,7 @@ body {
    font-family: "Open Sans", sans-serif; 
    max-width: 1400px;
    background-color: #e6e6fa;
-   font-size: .95em;
+   font-size: 1em;
 
 }
 
@@ -36,10 +36,19 @@ h1 {
      color: orange;
      margin-top: -50px;
      margin-bottom: 35px;
-    
      font-size: 1.2em;
      margin-left: 10px;
 }
+
+.motto2 {
+     color: orange;
+     margin-top: -50px;
+     margin-bottom: 35px;
+   
+     margin-left: 10px;
+       font-weight: bold;
+}
+
 
 .profile_image1{
     text-align: center;
@@ -67,6 +76,11 @@ h1 {
   font-size: .9em;
   padding: 20px;
   text-align: center;
+  
+}
+
+.bio2 .motto1 {
+  font-weight: bold;
 }
 
 .welcome {
@@ -107,7 +121,7 @@ h1 {
 .toggle {
   display: block;
   width: 50%;
-  background-color: rgba(0, 0, 0, 0.03);
+  background:rgba(255,255,255, 1);
   padding: 15px;
   text-align: center;
   opacity: 0;
@@ -252,13 +266,15 @@ span {
   font-size: .7em;
   padding: 5px;
   border-top: 1px solid green;
+
 }
 
 /**************** 
 About Page 
 ******************/
 .menu_square{
-  background:rgba(255,255,255, 0.4);
+  background:rgba(255,255,255, 1);
+  margin: 0 auto;
   
 }
 
@@ -272,8 +288,10 @@ About Page
 
 .white {
   text-align: center;
-  margin-top: -150px;
+  margin-top: -120px;
   margin-bottom: 50px;
+  font-size: .9em;
+    font-weight: bold;
 }
 
 .profile_image2 {
@@ -304,7 +322,6 @@ About Page
  
 }
 
-
 .contact .icon{
   color: green;
 
@@ -314,18 +331,31 @@ About Page
 /******************
 Light Gallery
 *******************/
+ .gallery_blurb {
+  height: 50px;
+  margin-top: -150px;
+  margin-bottom: 100px;
+  font-size: .9em;
+  font-weight: bold;
+ }
 
-
-h3 {
-  color: green;
+.sentence {
+  color: orange;;
   text-align: center;
   position: relative;
-  bottom: 50px;
+  z-index: -1;
+  padding: 10px;
+  font-size: 1em;
 }
 
 img:hover {
 transform:skewY(1.5deg);
 
+}
+
+.lightbox img {
+  border: 5px white solid;
+  border-radius: 5%;
 }
 
 #lightgallery  {
@@ -364,6 +394,9 @@ transform:skewY(1.5deg);
      height: 0;
 } 
 
+
+
+
 /***********
 Media Queries
 ************/
@@ -399,7 +432,7 @@ Media Queries
 
 .menu1 {
 
-    margin-top: 5px;
+    margin-top: -8px;
 }
 
 .container {    
@@ -424,6 +457,18 @@ Media Queries
     float: left;
     margin-top: -50px;
 
+}
+
+.white {
+  text-align: center;
+  margin-top: -100px;
+  margin-bottom: -5px;
+  font-size: .9em;
+  font-weight: bold;
+}
+
+.gallery_blurb {
+   margin-top: -120px;
 }
 
 .lightbox  {

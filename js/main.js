@@ -4,18 +4,7 @@ $('.navicon').on('click', function (e) {
   $('.toggle').toggleClass('toggle--active');
 });
 
- //When user clicks on class 'navicon', the class 'sentence' must disappear.
-    //click on navicon
-$('.navicon').on('click', function (e) {
-  e.preventDefault();
-  //Sentence disappears
-  $('.sentence').toggle();  
-  $('.white').toggle();
-  $('.picture').toggle(); 
-  $('.motto1').toggle();
-  
 
-});
 
 
 

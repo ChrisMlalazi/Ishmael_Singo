@@ -16,11 +16,17 @@ body {
 
 }
 
+
+
 .topDiv {
     background-color: #e0ffff;
     height: 70px;
     margin-top: 0;
     border-bottom: 1px solid green;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+
 }
 
 h1 {
@@ -34,7 +40,7 @@ h1 {
 
 .motto1 {
      color: orange;
-     margin-top: -50px;
+     margin-top: -200px;
      margin-bottom: 35px;
      font-size: 1.2em;
      margin-left: 10px;
@@ -72,7 +78,7 @@ h1 {
 
 .bio2{
   float: left;
-  margin-top: -80px;
+  margin-top: 100px;
   font-size: .9em;
   padding: 20px;
   text-align: center;
@@ -89,7 +95,10 @@ h1 {
   margin-top: 100px;
 }
 
-
+.social {
+  font-weight: bold;
+  color: orange;
+}
 
 .container img {
     transition: transform .5s;
@@ -105,6 +114,7 @@ h1 {
     width: 100%;
     background-size: cover;
     float: left;   
+    margin-top: 60px;
 
 }
 
@@ -145,14 +155,17 @@ h1 {
   transform: translateY(0);
 }
 
-.toggle-menu { margin-bottom: 25px; }
+.toggle-menu { 
+  margin-top: 70px; 
+}
 
 .toggle-menu li {
   width: 100%;
   display: block;
-  margin-left: -25px;
   margin-bottom: 10px;
-  padding-right: 90px;
+  padding-right: 30px;
+
+  text-align: center;
 
 }
 
@@ -285,13 +298,20 @@ About Page
 }
 
 
+.singo {
+  padding-top: 20px;
+}
 
 .white {
   text-align: center;
-  margin-top: -120px;
+  margin-top: 100px;
   margin-bottom: 50px;
   font-size: .9em;
-    font-weight: bold;
+  font-weight: bold;
+}
+
+.wrapper2 {
+  padding: 0 10px;
 }
 
 .profile_image2 {
@@ -333,7 +353,7 @@ Light Gallery
 *******************/
  .gallery_blurb {
   height: 50px;
-  margin-top: -150px;
+  margin-top: -80px;
   margin-bottom: 100px;
   font-size: .9em;
   font-weight: bold;
@@ -346,6 +366,7 @@ Light Gallery
   z-index: -1;
   padding: 10px;
   font-size: 1em;
+  margin-top: -90px;
 }
 
 img:hover {
@@ -394,6 +415,52 @@ transform:skewY(1.5deg);
      height: 0;
 } 
 
+/*************
+FOOTER
+******************/
+
+
+footer {
+  height: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+.fa {
+  color: white;
+  text-align: center;
+  padding-top: 7px;
+}
+
+.facebook {
+
+  font-weight: bold;
+  background-color: #3b5998;;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+ 
+}
+
+.fa-google {
+
+  font-weight: bold;
+  background-color: #dd4b39;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  margin-left: 20px;
+ 
+}
+
+.fa-google:hover {
+  background-color: green;
+} 
+
+.fa-facebook:hover {
+  background-color: green;
+} 
+
 
 
 
@@ -423,7 +490,7 @@ Media Queries
 @media screen and (min-width: 737px) {
 
 .motto1 {
-    margin-top: -100px; 
+    margin-top: -50px; 
 }
 
 .profile_image1{ 
@@ -495,12 +562,16 @@ Media Queries
 
 /****  About  ****/
 
+
 #field {
     flex-direction: row;
     max-width: 1100px;
     margin: 0 auto;
 }
 
+.set {
+  margin-top: 30px;
+}
 
 .profile_image2 {
    height: 380px;

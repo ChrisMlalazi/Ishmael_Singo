@@ -17,7 +17,6 @@ body {
 }
 
 
-
 .topDiv {
     background-color: #e0ffff;
     height: 70px;
@@ -78,7 +77,7 @@ h1 {
 
 .bio2{
   float: left;
-  margin-top: 100px;
+  margin-top: 300px;
   font-size: .9em;
   padding: 20px;
   text-align: center;
@@ -126,11 +125,10 @@ h1 {
   margin-top: 200px;
 }
 
-
-
 .toggle {
   display: block;
   width: 50%;
+  margin-top: 215px;
   background:rgba(255,255,255, 1);
   padding: 15px;
   text-align: center;
@@ -141,8 +139,25 @@ h1 {
   -ms-transform: translateY(-200%);
   transform: translateY(-200%);
   min-width: 100px;
+}
+
+.menu1 {
+ padding: 0;
 
 }
+
+.menu1 li{
+ padding-top: 10px;
+ margin: 0 auto;
+}
+
+#gal { 
+  padding-bottom: 15px;
+ }
+
+
+
+
 
 /** Toggle Menu **/
 .toggle--active {
@@ -285,16 +300,17 @@ span {
 /**************** 
 About Page 
 ******************/
-.menu_square{
+/*.menu_square{
   background:rgba(255,255,255, 1);
   margin: 0 auto;
   
-}
+}*/
 
 #field {
   display: flex;
   flex-direction: column;
   margin: 10px;
+
 }
 
 
@@ -304,14 +320,15 @@ About Page
 
 .white {
   text-align: center;
-  margin-top: 100px;
-  margin-bottom: 50px;
+  margin-top: 300px;
+  margin-bottom: -100px;
   font-size: .9em;
   font-weight: bold;
 }
 
 .wrapper2 {
-  padding: 0 10px;
+  padding: 0;
+  margin-top: -10px;
 }
 
 .profile_image2 {

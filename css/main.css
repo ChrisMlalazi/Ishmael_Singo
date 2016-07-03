@@ -18,6 +18,12 @@ body {
 
 button {
   background-color: yellow;
+  margin: 0 auto;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10%;
+  border: 2px solid orange;
 }
 
 .topDiv {
@@ -313,7 +319,7 @@ About Page
 }
 
 .wrapper2 {
-  padding: 0 10px;
+  padding: 0;
 }
 
 .profile_image2 {

@@ -16,7 +16,9 @@ body {
 
 }
 
-
+button {
+  background-color: yellow;
+}
 
 .topDiv {
     background-color: #e0ffff;
@@ -582,4 +584,9 @@ Media Queries
 .bio {  
    margin-top: 10px;
 }
+
+.top {
+  display: none;
+}
+
 }

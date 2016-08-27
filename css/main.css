@@ -16,6 +16,13 @@ body {
 
 }
 
+#white2 {
+  height: 200px;
+  width: 50%;
+  background-color: grey;
+  margin-left: 50px;
+}
+
 button {
   background-color: yellow;
   margin: 0 auto;

@@ -16,12 +16,6 @@ body {
 
 }
 
-#temperature {
-  height: 300px;
-  width: 100%;
-  background-color: white;
-}
-
 button {
   background-color: yellow;
   margin: 0 auto;
